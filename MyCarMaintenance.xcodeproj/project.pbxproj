@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		02FEEB362DD6C58A002AB8AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02FEEB202DD6C589002AB8AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02FEEB272DD6C589002AB8AA;
+			remoteInfo = MyCarMaintenance;
+		};
+		02FEEB402DD6C58A002AB8AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02FEEB202DD6C589002AB8AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02FEEB272DD6C589002AB8AA;
+			remoteInfo = MyCarMaintenance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FEEB282DD6C589002AB8AA /* MyCarMaintenance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCarMaintenance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FEEB352DD6C58A002AB8AA /* MyCarMaintenanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCarMaintenanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FEEB3F2DD6C58A002AB8AA /* MyCarMaintenanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCarMaintenanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		02FEEB2A2DD6C589002AB8AA /* MyCarMaintenance */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyCarMaintenance;
+			sourceTree = "<group>";
+		};
+		02FEEB382DD6C58A002AB8AA /* MyCarMaintenanceTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyCarMaintenanceTests;
+			sourceTree = "<group>";
+		};
+		02FEEB422DD6C58A002AB8AA /* MyCarMaintenanceUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyCarMaintenanceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02FEEB252DD6C589002AB8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FEEB322DD6C58A002AB8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FEEB3C2DD6C58A002AB8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FEEB1F2DD6C589002AB8AA = {
+			isa = PBXGroup;
+			children = (
+				02FEEB2A2DD6C589002AB8AA /* MyCarMaintenance */,
+				02FEEB382DD6C58A002AB8AA /* MyCarMaintenanceTests */,
+				02FEEB422DD6C58A002AB8AA /* MyCarMaintenanceUITests */,
+				02FEEB292DD6C589002AB8AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02FEEB292DD6C589002AB8AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02FEEB282DD6C589002AB8AA /* MyCarMaintenance.app */,
+				02FEEB352DD6C58A002AB8AA /* MyCarMaintenanceTests.xctest */,
+				02FEEB3F2DD6C58A002AB8AA /* MyCarMaintenanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02FEEB272DD6C589002AB8AA /* MyCarMaintenance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FEEB492DD6C58B002AB8AA /* Build configuration list for PBXNativeTarget "MyCarMaintenance" */;
+			buildPhases = (
+				02FEEB242DD6C589002AB8AA /* Sources */,
+				02FEEB252DD6C589002AB8AA /* Frameworks */,
+				02FEEB262DD6C589002AB8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				02FEEB2A2DD6C589002AB8AA /* MyCarMaintenance */,
+			);
+			name = MyCarMaintenance;
+			packageProductDependencies = (
+			);
+			productName = MyCarMaintenance;
+			productReference = 02FEEB282DD6C589002AB8AA /* MyCarMaintenance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02FEEB342DD6C58A002AB8AA /* MyCarMaintenanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FEEB4C2DD6C58B002AB8AA /* Build configuration list for PBXNativeTarget "MyCarMaintenanceTests" */;
+			buildPhases = (
+				02FEEB312DD6C58A002AB8AA /* Sources */,
+				02FEEB322DD6C58A002AB8AA /* Frameworks */,
+				02FEEB332DD6C58A002AB8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02FEEB372DD6C58A002AB8AA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				02FEEB382DD6C58A002AB8AA /* MyCarMaintenanceTests */,
+			);
+			name = MyCarMaintenanceTests;
+			packageProductDependencies = (
+			);
+			productName = MyCarMaintenanceTests;
+			productReference = 02FEEB352DD6C58A002AB8AA /* MyCarMaintenanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02FEEB3E2DD6C58A002AB8AA /* MyCarMaintenanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FEEB4F2DD6C58B002AB8AA /* Build configuration list for PBXNativeTarget "MyCarMaintenanceUITests" */;
+			buildPhases = (
+				02FEEB3B2DD6C58A002AB8AA /* Sources */,
+				02FEEB3C2DD6C58A002AB8AA /* Frameworks */,
+				02FEEB3D2DD6C58A002AB8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02FEEB412DD6C58A002AB8AA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				02FEEB422DD6C58A002AB8AA /* MyCarMaintenanceUITests */,
+			);
+			name = MyCarMaintenanceUITests;
+			packageProductDependencies = (
+			);
+			productName = MyCarMaintenanceUITests;
+			productReference = 02FEEB3F2DD6C58A002AB8AA /* MyCarMaintenanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02FEEB202DD6C589002AB8AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					02FEEB272DD6C589002AB8AA = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					02FEEB342DD6C58A002AB8AA = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 02FEEB272DD6C589002AB8AA;
+					};
+					02FEEB3E2DD6C58A002AB8AA = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 02FEEB272DD6C589002AB8AA;
+					};
+				};
+			};
+			buildConfigurationList = 02FEEB232DD6C589002AB8AA /* Build configuration list for PBXProject "MyCarMaintenance" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02FEEB1F2DD6C589002AB8AA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 02FEEB292DD6C589002AB8AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02FEEB272DD6C589002AB8AA /* MyCarMaintenance */,
+				02FEEB342DD6C58A002AB8AA /* MyCarMaintenanceTests */,
+				02FEEB3E2DD6C58A002AB8AA /* MyCarMaintenanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02FEEB262DD6C589002AB8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FEEB332DD6C58A002AB8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FEEB3D2DD6C58A002AB8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02FEEB242DD6C589002AB8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FEEB312DD6C58A002AB8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FEEB3B2DD6C58A002AB8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02FEEB372DD6C58A002AB8AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02FEEB272DD6C589002AB8AA /* MyCarMaintenance */;
+			targetProxy = 02FEEB362DD6C58A002AB8AA /* PBXContainerItemProxy */;
+		};
+		02FEEB412DD6C58A002AB8AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02FEEB272DD6C589002AB8AA /* MyCarMaintenance */;
+			targetProxy = 02FEEB402DD6C58A002AB8AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02FEEB472DD6C58B002AB8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MP4H5R4S3D;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02FEEB482DD6C58B002AB8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MP4H5R4S3D;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02FEEB4A2DD6C58B002AB8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP4H5R4S3D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlfredsGarage.MyCarMaintenance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02FEEB4B2DD6C58B002AB8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP4H5R4S3D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlfredsGarage.MyCarMaintenance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02FEEB4D2DD6C58B002AB8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP4H5R4S3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlfredsGarage.MyCarMaintenanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCarMaintenance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyCarMaintenance";
+			};
+			name = Debug;
+		};
+		02FEEB4E2DD6C58B002AB8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP4H5R4S3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlfredsGarage.MyCarMaintenanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCarMaintenance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyCarMaintenance";
+			};
+			name = Release;
+		};
+		02FEEB502DD6C58B002AB8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP4H5R4S3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlfredsGarage.MyCarMaintenanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCarMaintenance;
+			};
+			name = Debug;
+		};
+		02FEEB512DD6C58B002AB8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP4H5R4S3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlfredsGarage.MyCarMaintenanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCarMaintenance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02FEEB232DD6C589002AB8AA /* Build configuration list for PBXProject "MyCarMaintenance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FEEB472DD6C58B002AB8AA /* Debug */,
+				02FEEB482DD6C58B002AB8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FEEB492DD6C58B002AB8AA /* Build configuration list for PBXNativeTarget "MyCarMaintenance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FEEB4A2DD6C58B002AB8AA /* Debug */,
+				02FEEB4B2DD6C58B002AB8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FEEB4C2DD6C58B002AB8AA /* Build configuration list for PBXNativeTarget "MyCarMaintenanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FEEB4D2DD6C58B002AB8AA /* Debug */,
+				02FEEB4E2DD6C58B002AB8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FEEB4F2DD6C58B002AB8AA /* Build configuration list for PBXNativeTarget "MyCarMaintenanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FEEB502DD6C58B002AB8AA /* Debug */,
+				02FEEB512DD6C58B002AB8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02FEEB202DD6C589002AB8AA /* Project object */;
+}

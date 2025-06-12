@@ -10,35 +10,61 @@ import SwiftUI
 struct LoginScreen: View {
     var body: some View {
         
-        let greeting: String = "Welcome to My Car Maintenance!"
+         
         
         VStack {
            
-            Text(greeting)
+            Text("Welcome to My Car Maintenance!")
                 .font(.title)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
             
-            LoginBox()
             
+            LoginBox()
+            RegisterAccountBox()
         }
         .padding()
+        .background(.gray)
+        .cornerRadius(8)
     }
 }
 
 
 
 struct LoginBox: View {
+    @State private var email = ""
+    @State private var password = ""
+    @State private var isLoggedIn = false
+    
+
     var body: some View {
         
         
         
-        Text("Sign in with email: ")
-        //TextField("ex: user@example.com", text: <#Binding<String>#>)
-        Text("Sign in with password: ")
-        //TextField("Password", text: <#Binding<String>#>)
+        Text("Login: ")
+            .multilineTextAlignment(.leading)
+            
+        TextField("Email: ", text: $email)
+        
+        // enter password
+        Text("Password: ")
+            .multilineTextAlignment(.leading)
+        SecureField("Password", text: $password)
         
         
+    }
+}
+
+struct RegisterAccountBox: View {
+    var body: some View {
+        
+        HStack {
+            Text("Dont have an account?")
+            NavigationLink(destination: SignUpScreen()){
+                Text("Register Now!")
+            }
+            
+        }
     }
 }
 

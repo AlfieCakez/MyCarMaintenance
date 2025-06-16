@@ -10,48 +10,53 @@ import SwiftUI
 struct LoginScreen: View {
     var body: some View {
         
-         
-        
-        VStack {
-           
-            Text("Welcome to My Car Maintenance!")
-                .font(.title)
-                .fontWeight(.bold)
-                .multilineTextAlignment(.center)
-            
-            
-            LoginBox()
-            RegisterAccountBox()
+        NavigationStack {
+            ZStack{
+                Theme.mainBackground.ignoresSafeArea()
+                
+                VStack(spacing :30) {
+                    PrimaryAppIcon()
+                    Text("Welcome to My Car Maintenance")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                        .multilineTextAlignment(.center)
+                        .padding(.top)
+                    LoginBox()
+                    RegisterAccountBox()
+                }
+                .padding()
+            }
         }
-        .padding()
-        .background(.gray)
-        .cornerRadius(8)
     }
 }
 
-
-
+    
 struct LoginBox: View {
     @State private var email = ""
     @State private var password = ""
     @State private var isLoggedIn = false
     
-
+    
     var body: some View {
         
-        
-        
-        Text("Login: ")
-            .multilineTextAlignment(.leading)
+        VStack(spacing: 24) {
+            TextField("Email", text: $email)
+                .inputStyle()
             
-        TextField("Email: ", text: $email)
-        
-        // enter password
-        Text("Password: ")
-            .multilineTextAlignment(.leading)
-        SecureField("Password", text: $password)
-        
-        
+            SecureField("Password", text: $password)
+                .inputStyle()
+            
+            Button("Login") {
+                
+                isLoggedIn = true
+            }
+            .primaryButtonStyle()
+        }
+        .padding()
+        .background(Theme.accentGray)
+        .cornerRadius(12)
+        .shadow(radius: 5)
     }
 }
 
@@ -60,8 +65,11 @@ struct RegisterAccountBox: View {
         
         HStack {
             Text("Dont have an account?")
+                .foregroundColor(.white)
             NavigationLink(destination: SignUpScreen()){
                 Text("Register Now!")
+                    .foregroundColor(.accentRed)
+                    .fontWeight(.semibold)
             }
             
         }
@@ -69,6 +77,9 @@ struct RegisterAccountBox: View {
 }
 
 
-#Preview {
-    LoginScreen()
-}
+    
+
+    #Preview {
+        LoginScreen()
+    }
+
